@@ -2,7 +2,7 @@ body {
   color: rgb(29, 43, 54);
   font-family: Graphik, Helvetica, Arial, sans-serif;
 }
-.header-color {
+.header {
   background: linear-gradient(
       rgba(255, 255, 255, 0) 0%,
       rgb(255, 255, 255) 100%
@@ -52,17 +52,16 @@ nav ul .button:hover {
   width: 154px;
   background: url(../assets/images/logo.svg) 0px 5px / 100% no-repeat;
 }
-.content {
+.text {
   padding-left: 150px;
   position: relative;
   z-index: 10;
 }
-/* .client {
-  padding: 130px !important;
-} */
+
+
 
 @media (min-width: 1200px) {
-  .content h1 {
+  .text h1 {
     font-size: 46px;
     font-weight: 600;
   }
@@ -80,15 +79,15 @@ nav ul .button:hover {
   margin: 0px;
 }
 @media (max-width: 992px) {
-  .content {
+  .text {
     padding-left: 30px;
     padding-top: 80px;
   }
-  .content h1 {
+  .text h1 {
     padding-top: 0px;
     font-weight: bold;
   }
-  .content {
+  .text {
     letter-spacing: initial;
   }
   .video {
@@ -101,13 +100,13 @@ nav ul .button:hover {
     width: 95%;
     padding-top: 0px;
   }
-  .client {
+  .brand {
     padding-top: 0px !important;
     padding: 0px;
   }
 }
 @media (max-width: 992px) {
-  .email-content {
+  .email-text {
     margin-top: 0px !important;
   }
 
@@ -120,7 +119,7 @@ nav ul .button:hover {
   footer .mt-5 {
     margin-right: 30px !important;
   }
-  .Knowledge .row {
+  .Knowledge-section .row {
     display: flex;
     flex-direction: column-reverse;
   }
@@ -133,7 +132,7 @@ nav ul .button:hover {
   .btm-img {
     margin-left: 0px;
   }
-  .email img {
+  .Email img {
     margin-left: 0px !important;
   }
   .top-img {
@@ -146,10 +145,10 @@ nav ul .button:hover {
   }
 }
 
-.content .input-btn {
+.text .input-btn {
   margin-top: 30px;
 }
-.content input {
+.text input {
   position: relative;
 
   width: 50%;
@@ -157,41 +156,41 @@ nav ul .button:hover {
   border-radius: 4px 0 0 4px;
   border: 0.2px solid rgb(96, 97, 99);
 }
-.content button {
+.text button {
   position: absolute;
   border-radius: 0 4px 4px 0;
   height: 50px;
   font-weight: bold;
   font-size: large;
 }
-.content button:hover {
+.text button:hover {
   background-color: rgb(0, 92, 164);
 }
 .video {
   overflow: hidden;
 }
-.content a {
+.text a {
   text-decoration: none;
 }
-.content p {
+.text p {
   font-size: 18px;
   font-weight: normal;
   color: rgb(72, 73, 75);
 }
-.content p:hover i {
+.text p:hover i {
   margin-left: 10px;
 }
 
-.content h5 {
+.text h5 {
   line-height: 40px;
   font-weight: 21px;
   color: rgb(49, 67, 81);
   max-width: 650px;
 }
-.client {
+.brand {
   padding-top: 150px;
 }
-.client img {
+.brand img {
   margin-top: 30px;
   -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
   filter: grayscale(100%);
@@ -229,34 +228,34 @@ nav ul .button:hover {
   top: -40px;
   width: 75px;
 }
-.email {
+.Email {
   margin-top: 130px;
   margin-bottom: 350px;
 }
-.email-content {
+.email-text {
   margin-top: 160px;
 }
-.email-content p {
+.email-text p {
   font-size: 18px;
   line-height: 40px;
   color: rgb(94, 95, 97);
 }
-.email-content h3 {
+.email-text h3 {
   font-size: 28px;
   padding: 20px 0;
   font-weight: 560;
 }
-.email-content h4 {
+.email-text h4 {
   color: rgb(94, 95, 97);
 }
-.email-content a {
+.email-text a {
   text-decoration: none;
 }
-.email-content a:hover i {
+.email-text a:hover i {
   margin-left: 10px;
 }
 
-.email img {
+.Email img {
   margin-left: 80px;
 }
 
@@ -287,7 +286,7 @@ nav ul .button:hover {
     rgba(249, 250, 250, 0) 100%
   );
 }
-.Knowledge {
+.Knowledge-section {
   margin-bottom: 200px;
 }
 .Knowledge-content {
@@ -323,7 +322,7 @@ nav ul .button:hover {
   .live-content {
     margin-bottom: 100px;
   }
-  .report .row {
+  .Report-section .row {
     display: flex;
     flex-direction: column-reverse;
   }
@@ -378,7 +377,7 @@ nav ul .button:hover {
   margin-left: 10px;
 }
 
-.live {
+.live-section {
   margin-bottom: 200px;
 }
 .bg-kgn video {
@@ -391,10 +390,10 @@ nav ul .button:hover {
   margin-bottom: -300px;
 }
 
-.report {
+.Report-section {
   margin-top: 150px;
 }
-.report img {
+.Report-section img {
   box-shadow: 0px 19px 57px -29px rgba(0, 0, 0, 0.75);
 }
 .report-content {
@@ -571,7 +570,7 @@ footer hr {
   transition: 0.4s;
 }
 
-.content input:placeholder-shown {
+.text input:placeholder-shown {
   padding-left: 15px;
 }
 .opacity-none-1 {

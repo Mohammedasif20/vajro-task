@@ -36,20 +36,3 @@ const backToNomral = (element) => {
 };
 
 
-// let opacityb = [];
-// for (var i = 1; i <= 4; i++) {
-//     opacityb.push(document.getElementById(`opp-${i}`));
-// }
-// const hoverAnimation = (element) => {
-//     opacityb.map((b) => {
-//         if (b.id != element.id) {
-//             b.style.opacityb = 0.7
-//         }
-//         else b.style.opacityb = 1
-//     });
-// };
-// const backToNomral = (element) => {
-//     opacity.map((b) => {
-//         b.style.opacityb = 1
-//     });
-// };
