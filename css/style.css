@@ -1,16 +1,27 @@
+.email-text h4:hover 
+{
+color: blue;
+}
+
 body {
   color: rgb(29, 43, 54);
   font-family: Graphik, Helvetica, Arial, sans-serif;
 }
-.header {
-  background: linear-gradient(
-      rgba(255, 255, 255, 0) 0%,
-      rgb(255, 255, 255) 100%
-    ),
-    linear-gradient(90deg, rgb(242, 246, 255) 0%, rgba(242, 246, 255, 0) 50%);
+
+h1, h2, h3, h4, h5, h6 {
+  color: rgb(29, 43, 54);
+  font-weight: 500;
+  margin: 0px 0px 20px;
 }
+ 
 header {
   padding-top: 150px;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0) 0%,
+    rgb(255, 255, 255) 100%
+  ),
+  linear-gradient(90deg, rgb(242, 246, 255) 0%, rgba(242, 246, 255, 0) 50%);
+
 }
 .container-fluid {
   padding: 0px 120px;
@@ -62,7 +73,7 @@ nav ul .button:hover {
 
 @media (min-width: 1200px) {
   .text h1 {
-    font-size: 46px;
+    font-size: 48px;
     font-weight: 600;
   }
 }
@@ -202,7 +213,7 @@ nav ul .button:hover {
 .gif-text h2 {
   position: relative;
   margin: 0px;
-  font-size: 40px;
+  font-size: 36px;
 }
 .gif-text h2::before {
   content: "";
